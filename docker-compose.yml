@@ -1,0 +1,40 @@
+services:
+  web:
+    build: .
+    container_name: elearning-web
+    restart: unless-stopped
+    ports:
+      - "8088:80"
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.6
+    container_name: elearning-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: elearning
+      MYSQL_USER: elearning
+      MYSQL_PASSWORD: elearning123
+    volumes:
+      - elearning_db_data:/var/lib/mysql
+      - ./database/elearning.sql:/docker-entrypoint-initdb.d/elearning.sql:ro
+
+  phpmyadmin:
+    image: phpmyadmin:5
+    container_name: elearning-pma
+    restart: unless-stopped
+    ports:
+      - "8089:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: elearning
+      PMA_PASSWORD: elearning123
+    depends_on:
+      - db
+
+volumes:
+  elearning_db_data:
