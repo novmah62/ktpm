@@ -15,7 +15,7 @@ Kịch bản này dùng để trình bày demo báo cáo kiểm thử website `S
 5. File `Bug Report`
 6. File `Security Testing` hoặc ảnh `OWASP ZAP`
 7. File `Performance Testing` hoặc kết quả `JMeter`
-8. Ảnh hoặc kết quả `Selenium`
+8. Ảnh hoặc kết quả `Playwright`
 
 ### Thứ tự tab gợi ý
 
@@ -179,17 +179,17 @@ Nếu mở ảnh JMeter:
 
 "Kết quả cho thấy website phản hồi ở mức chấp nhận được đối với mục tiêu demo môn học, chưa ghi nhận lỗi nghiêm trọng trong bài test tải nhỏ."
 
-## 3.10. Demo Automation bằng Selenium result
+## 3.10. Demo Automation bằng Playwright result
 
 ### Màn hình cần mở
 
-- terminal chạy Selenium test
+- terminal chạy Playwright test
 - screenshot kết quả chạy test
 - hoặc ảnh kết quả automation
 
 ### Lời thoại gợi ý
 
-"Về automation testing, nhóm dùng Selenium để tự động hóa một số smoke test cơ bản như mở homepage, đăng nhập Admin và logout nếu thao tác ổn định. Việc dùng automation trong báo cáo giúp nhóm chứng minh có áp dụng kiểm thử tự động, dù phạm vi còn đơn giản."
+"Về automation testing, nhóm dùng Playwright để tự động hóa một số smoke test cơ bản như mở homepage, đăng nhập Admin và logout nếu thao tác ổn định. Việc dùng automation trong báo cáo giúp nhóm chứng minh có áp dụng kiểm thử tự động, dù phạm vi còn đơn giản."
 
 Nếu mở report:
 
@@ -229,9 +229,9 @@ Nếu mở report:
 
 "Nhóm chọn JMeter vì đây là công cụ phổ biến để kiểm thử hiệu năng, có giao diện trực quan và dễ chụp bằng chứng cho báo cáo."
 
-### Với Selenium
+### Với Playwright
 
-"Nhóm chọn Selenium vì đây là công cụ kiểm thử tự động phổ biến, phù hợp với kiểm thử giao diện web và cũng là công cụ quen thuộc, dễ trình bày trong báo cáo môn học."
+"Nhóm chọn Playwright vì đây là công cụ kiểm thử tự động hiện đại, phù hợp với kiểm thử giao diện web, chạy ổn định trên môi trường local và dễ trình bày kết quả trong báo cáo môn học."
 
 ## 5. Mẹo trình bày để không bị rối
 

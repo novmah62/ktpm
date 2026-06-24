@@ -27,4 +27,4 @@
 | SC_SECURITY_002 | Security basic | Kiểm tra XSS basic tại form nhập liệu | Medium | Chrome, OWASP ZAP | Payload `<script>alert(1)</script>` |
 | SC_SECURITY_003 | Security basic | Kiểm tra truy cập trực tiếp URL nội bộ khi chưa login hoặc sai vai trò | High | Chrome, Edge | Access control |
 | SC_PERF_001 | Performance basic | Kiểm tra response time các trang chính với tải nhỏ | Medium | Apache JMeter | Chạy trên homepage/admin/faculty |
-| SC_AUTO_001 | Automation smoke test | Tự động mở homepage và đăng nhập Admin thành công | Medium | Selenium | Smoke automation tối giản |
+| SC_AUTO_001 | Automation smoke test | Tự động mở homepage và đăng nhập Admin thành công | Medium | Playwright | Smoke automation tối giản |

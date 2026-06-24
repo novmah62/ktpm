@@ -20,7 +20,7 @@ Thông tin đăng nhập:
 - Username: `admin`
 - Password: `admin123`
 
-Lưu ý: đây là tài liệu tham khảo thêm theo nhu cầu demo kỹ thuật. Trong bộ công cụ chính của báo cáo nhóm 7, công cụ automation được chốt là `Selenium`.
+Lưu ý: đây là tài liệu hướng dẫn dùng cho phần demo automation hiện tại của nhóm. Công cụ automation được dùng để trình bày là `Playwright`.
 
 ## 1.1. Thư mục lưu ảnh evidence
 

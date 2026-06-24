@@ -267,11 +267,11 @@ Ví dụ:
 
 ### 7.3. Công cụ liên quan
 
-- `Selenium`
+- `Playwright`
 
-### 7.4. Vì sao dùng Selenium
+### 7.4. Vì sao dùng Playwright
 
-- Là công cụ kiểm thử tự động web phổ biến
+- Là công cụ kiểm thử tự động web hiện đại, phổ biến và dễ demo
 - Phù hợp với bài toán login, click button, mở trang
 - Dễ giải thích trong báo cáo và khi thuyết trình
 - Có trong báo cáo nhóm 7

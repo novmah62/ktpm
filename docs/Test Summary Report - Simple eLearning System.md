@@ -55,7 +55,7 @@ Nhóm đã thực hiện kiểm thử bảo mật ở mức cơ bản như kiể
 Kiểm thử hiệu năng được thực hiện với tải nhỏ trên môi trường local. Kết quả cho thấy website phản hồi ở mức chấp nhận được đối với các trang chính như homepage, admin page và faculty page. Trong phạm vi demo môn học, hệ thống đáp ứng được yêu cầu sử dụng cơ bản.
 
 ### 4.4. Kiểm thử tự động
-Nhóm đã áp dụng Selenium để tự động hóa 3 smoke test cơ bản, bao gồm mở homepage, đăng nhập Admin và kiểm tra một luồng thao tác đơn giản. Các script chạy được trên môi trường local và cung cấp thêm bằng chứng cho phần automation testing trong báo cáo.
+Nhóm đã áp dụng Playwright để tự động hóa 3 smoke test cơ bản, bao gồm mở homepage, đăng nhập Admin và kiểm tra một luồng thao tác đơn giản. Các script chạy được trên môi trường local và cung cấp thêm bằng chứng cho phần automation testing trong báo cáo.
 
 ## 5. Đánh giá chất lượng hệ thống
 
